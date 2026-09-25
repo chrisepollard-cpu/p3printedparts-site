@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://p3printedparts.com/sitemap.xml
+# Agent summary: https://p3printedparts.com/llms.txt
+# Agent card: https://p3printedparts.com/.well-known/agent-card.json

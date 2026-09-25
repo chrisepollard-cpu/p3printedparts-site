@@ -1,0 +1,52 @@
+{
+  "name": "P3 Printed Parts",
+  "description": "Quote desk for custom, discontinued, and hard-to-find parts made in a small Llano, Texas workshop for homeowners, hobbyists, home builders, and repair shops. Accepts part requests from people and from automated agents; a person reviews every request before any quote or commitment.",
+  "url": "https://p3printedparts.com",
+  "version": "0.1.0",
+  "provider": {
+    "organization": "P3 Printed Parts",
+    "url": "https://p3printedparts.com"
+  },
+  "status": "draft - site not yet live; no real-time agent endpoint yet",
+  "contact": {
+    "email": "quotes@p3printedparts.com",
+    "phone": "+1-318-506-2279"
+  },
+  "humanInTheLoop": true,
+  "defaultInputModes": [
+    "text/plain",
+    "image/jpeg",
+    "image/png"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "request-part-quote",
+      "name": "Request a custom or replacement part quote",
+      "description": "Send what the part goes on, the part name, measurements or photos, quantity, and a reply address to quotes@p3printedparts.com. The owner replies with fit, price, and lead time.",
+      "tags": [
+        "custom parts",
+        "replacement parts",
+        "discontinued parts",
+        "hard-to-find parts",
+        "hobby",
+        "home builder",
+        "remodel",
+        "repair shop"
+      ],
+      "examples": [
+        "Quote 12 discontinued cabinet hinge covers for a kitchen remodel, reply to builder@example.com",
+        "Quote a replacement control knob for a 1960s table radio, reply to owner@example.com"
+      ]
+    }
+  ],
+  "notAccepted": [
+    "stove parts",
+    "electrical parts",
+    "load-bearing parts",
+    "child-safety parts",
+    "counterfeit trademarked parts"
+  ]
+}

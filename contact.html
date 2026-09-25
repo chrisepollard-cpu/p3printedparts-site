@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact / Quote — P3 Printed Parts</title>
+  <meta name="description" content="Request a quote for a custom or hard-to-find part. Homeowners, hobbyists, home builders, and repair shops welcome. (318) 506-2279." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="canonical" href="https://p3printedparts.com/contact.html" />
+  <link rel="alternate" type="text/plain" title="Agent summary" href="llms.txt" />
+  <link rel="agent-card" type="application/json" href=".well-known/agent-card.json" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:site_name" content="P3 Printed Parts" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://p3printedparts.com/contact.html" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://p3printedparts.com/#business",
+  "name": "P3 Printed Parts",
+  "description": "Custom, discontinued, and hard-to-find parts made to order for homeowners, hobbyists, home builders, and repair shops.",
+  "url": "https://p3printedparts.com",
+  "telephone": "+1-318-506-2279",
+  "email": "quotes@p3printedparts.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Llano",
+    "addressRegion": "TX",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Custom and hard-to-find parts, made to order",
+      "serviceType": "Custom and replacement part fabrication"
+    }
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "quotes",
+    "email": "quotes@p3printedparts.com",
+    "telephone": "+1-318-506-2279",
+    "availableLanguage": "English"
+  }
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <div class="logo-mark">P3 Printed Parts</div>
+        <div class="logo-sub">Missing-Parts Desk</div>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">Menu</button>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a class="nav-cta active" href="contact.html">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="section-label">Contact</p>
+        <h2>Request a parts quote</h2>
+        <p class="section-intro">Homeowners, hobbyists, builders, and shops: tell us what you need. We’ll follow up on fit-sample steps and pricing.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap contact-grid">
+        <div>
+          <p class="section-label">Reach us</p>
+          <h2>Direct lines</h2>
+          <ul class="contact-list">
+            <li>
+              <strong>Phone</strong>
+              <a href="tel:+13185062279">(318) 506-2279</a>
+            </li>
+            <li>
+              <strong>Email</strong>
+              <a href="mailto:quotes@p3printedparts.com">quotes@p3printedparts.com</a>
+            </li>
+            <li>
+              <strong>Web</strong>
+              <a href="https://p3printedparts.com">p3printedparts.com</a>
+            </li>
+            <li>
+              <strong>Location</strong>
+              Llano / Hill Country, Texas
+            </li>
+            <li>
+              <strong>Who should write</strong>
+              Anyone who needs a part they can’t buy: homeowners, hobbyists, home builders, and repair shops
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="quote-form" action="mailto:quotes@p3printedparts.com" method="post" enctype="text/plain">
+          <!-- Formspree-ready: replace action with https://formspree.io/f/YOUR_ID and method="POST" -->
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+          </div>
+          <div class="form-row">
+            <label for="role">I am</label>
+            <select id="role" name="role" required>
+              <option value="">Select…</option>
+              <option value="homeowner">A homeowner or individual</option>
+              <option value="hobbyist">A hobbyist or maker</option>
+              <option value="builder">A home builder or remodeler</option>
+              <option value="repair-shop">Someone at a repair shop</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="machine">What it goes on</label>
+            <input id="machine" name="machine" type="text" placeholder="e.g. kitchen cabinet, RC truck, drill press, vintage radio" />
+          </div>
+          <div class="form-row">
+            <label for="part">Part needed</label>
+            <input id="part" name="part" type="text" placeholder="e.g. hinge cover, bracket, knob, gear" />
+          </div>
+          <div class="form-row">
+            <label for="details">Details / measurements / photos note</label>
+            <textarea id="details" name="details" placeholder="Describe the part, where it goes, whether you still have the broken original, and any measurements."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send quote request</button>
+          <p class="form-note">Or call <a href="tel:+13185062279">(318) 506-2279</a>. We do not run a consumer merch catalog.</p>
+          <p class="form-success" role="status">Opening your email client with the quote details…</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <div class="logo-mark">P3 Printed Parts</div>
+        <div class="logo-sub">Missing-Parts Desk</div>
+      </div>
+      <div class="footer-meta">
+        Llano / Hill Country, TX<br />
+        <a href="tel:+13185062279">(318) 506-2279</a> ·
+        <a href="mailto:quotes@p3printedparts.com">quotes@p3printedparts.com</a><br />
+        <a href="https://p3printedparts.com">p3printedparts.com</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

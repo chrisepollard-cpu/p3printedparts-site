@@ -1,0 +1,24 @@
+# P3 Printed Parts
+
+> Custom-parts workshop in Llano, Texas (Hill Country). Makes discontinued, hard-to-find, and one-off parts to order for homeowners, hobbyists, home builders and remodelers, and repair shops. Typical work: knobs, handles, brackets, clips, caps, covers, spacers, gears, cabinet and furniture hardware, hobby parts, jigs, and small batches. Non-structural, non-safety-critical parts only.
+
+This file is for automated agents and assistants. Customer-facing pages are listed below.
+
+## Pages
+- [Home](https://p3printedparts.com/index.html): what the workshop makes and who it serves
+- [Services](https://p3printedparts.com/services.html): what we make, how ordering works, what we will not print
+- [Contact / Request a quote](https://p3printedparts.com/contact.html): phone and email
+
+## How an agent can reach us
+- Quote requests by email: quotes@p3printedparts.com. Include what the part goes on (make and model if it has one), the part name, measurements or photos if you have them, quantity, and a reply address.
+- Phone: +1-318-506-2279 (business line).
+- Machine-readable card: https://p3printedparts.com/.well-known/agent-card.json
+- Every request is reviewed by a person before any quote, price, or commitment is given. Nothing is binding until the owner confirms it in writing.
+
+## What we will not make
+- Stove, electrical, load-bearing, or child-safety parts
+- Counterfeit trademarked parts (we describe fit only, e.g. "fits [make and model]")
+- Generic consumer merchandise
+
+## Service area
+Made in Llano, Texas. Parts can ship anywhere in the United States.
